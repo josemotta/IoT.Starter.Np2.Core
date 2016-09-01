@@ -1,4 +1,5 @@
-# IoT.Starter.Np2.Core
+# IoT.Starter
 
 IoT Starter Netduino Plus 2 Core
 ---
+
