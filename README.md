@@ -3,21 +3,25 @@ IoT Starter Netduino Plus 2 Core
 
 <h2>Introduction</h2>
 
-There are tenths BILLIONS of smart devices in the world now, including all sizes of computers, tablets, cell phones, smart watches, pagers, etc. The IoT technology expects to multiply this quantity several times. Then, we expect to arrive soon to an expressive record of a TRILLION devices connected to the Internet. This represents a huge market to be developed in the next few years.
+In the world there are tenths billions of  smart devices connected to the Internet right now, including all sizes of computers, tablets, cell phones, smart watches, pagers, etc. The IoT technology expects to double this quantity before 2020, which represents a $6 trillion market to be developed in the next few years.
 
-IoT project are quite different than current computing environment, based on human interaction with screens, keyboards and mouses. Instead, IoT should directly handle with nature, processing data in a real time basis. We expect to see from now a lot of new business, probably launched by small and medium companies, managed by high tech teams.
+IoT development will challenge us all to behave  differently, compared to current  computing environment, based on human interaction with screens, keyboards and mouses. Instead, IoT devices will interact directly with nature, processing data in a real time basis. 
 
-How to minimize the risks if you are willing to join the IoT entrepreneurs? How to satisfy investors and decision makers that will support you and bet some money developing your idea?
+Supposing you are trying to become an IoT entrepreneur, how to minimize the risks for a new IoT initiative? How to satisfy  users, investors and decision makers that are supporting a brilliant "idea" for an IoT project? Some steps may help you to improve the work flow and reduce the risks:
 
-Como minimizar os riscos ao se investir em IoT? Como obter retorno do projeto? Como satisfazer os tomadores de decisão que irão investir no negócio? Geralmente identifica-se as seguintes fases em um projeto desse tipo.
+- Business Plan
+- Team
+- Methodology
+- Proof of Concept
+- Starter Kit
+- Pilot
+- Commercial
 
-Plano de Negócio
-Escolha do Time
-Escolha da Metodologia
-Prova de Conceito
-Escolha do Starter Kit
-Protótipo Piloto
-Produção Comercial
+Then, suppose the initial "idea" has been moved to a profitable business plan and it was accepted by the investors. After that, an executive manager get involved and gathered a compact developer team, well trained to apply an agile methodology to keep a smooth and continuous workflow.
+
+Now, at the Proof of Concept, we expect to build the preliminary version that comply with users and investors needs. The first version should not add all the complexity required by final product, the goal at this time is to generate an embryo. Since methodology is able to evaluate and improve this embryo continuously, we can start it small. Each version may add functionality and corresponding tests to help fixing the issues.
+
+This is the moment where the Starter Kit speeds up the product development and validate the main concepts from the IoT initiative. Better than that, the team workflow starts running as soon as the Starter Kit is installed. 
 
 <h2>Background</h2>
 
