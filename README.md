@@ -12,7 +12,7 @@
 
 <h2>Background</h2>
 
-<p>Supposing you are trying to become an IoT entrepreneur, how to minimize the risks for an IoT initiative? How to satisfy users, investors and decision makers that support your&nbsp;&quot;idea&quot; for&nbsp;an IoT project? It is&nbsp;common knowledge that some wise steps may&nbsp;reduce the risks:</p>
+<p>Supposing you are trying to become an IoT entrepreneur, how to minimize the risks for an IoT initiative? How to satisfy users, investors and decision makers that support your&nbsp;"idea" for&nbsp;an IoT project? It is&nbsp;common knowledge that some wise steps may&nbsp;reduce the risks:</p>
 
 <ul>
 	<li>Business Plan</li>
@@ -24,7 +24,7 @@
 	<li>Commercial</li>
 </ul>
 
-<p>Then, suppose the original &quot;idea&quot; has grown enough to fit in a profitable business plan and it was accepted by the investors. After that, an executive manager get involved and gathered a compact developer team, well trained to apply an agile methodology that assures&nbsp;a smooth and continuous workflow. Great! Where are we now?</p>
+<p>Then, suppose the original "idea" has grown enough to fit in a profitable business plan and it was accepted by the investors. After that, an executive manager get involved and gathered a compact developer team, well trained to apply an agile methodology that assures&nbsp;a smooth and continuous workflow. Great! Where are we now?</p>
 
 <p>Some time has passed since the investors came in and they are already pushing for results. We should speed up the development process to launch product as soon as possible, they say.</p>
 
@@ -120,14 +120,14 @@
 
             // Web Server
             ServerConfiguration = new Configuration(80);
-            ServerCredential = new Credential(&quot;Administrator&quot;, &quot;admin&quot;, &quot;admin&quot;);
-            Server = new HttpServer(ServerConfiguration, ServerCredential, @&quot;\SD\&quot;);
+            ServerCredential = new Credential("Administrator", "admin", "admin");
+            Server = new HttpServer(ServerConfiguration, ServerCredential, @"\SD\");
             Server.OnServerError += new OnServerErrorDelegate(Server_OnServerError);
             Server.OnRequestReceived += new OnRequestReceivedDelegate(Server_OnRequestReceived);
             Server.Start();
 
             // File Server
-            FileServer server = new FileServer(@&quot;\SD\&quot;, 1554);
+            FileServer server = new FileServer(@"\SD\", 1554);
 
             while (true)
             {
@@ -151,17 +151,17 @@
             {
                 switch (Request.RequestedCommand.ToLower())
                 {
-                    case &quot;on&quot;:
+                    case "on":
                         status = true;      // on board led ON
                         break;
-                    case &quot;off&quot;:
+                    case "off":
                         status = false;     // on board led OFF
                         break;
                 } 
 
-                Response.WriteFilesList(&quot;&lt;br&gt;&quot; + &quot;Comando &quot; +
+                Response.WriteFilesList("&lt;br&gt;" + "Comando " +
                     Request.RequestedCommand.ToLower() +
-                    &quot;: Status = &quot; + status.ToString());
+                    ": Status = " + status.ToString());
             }
             else if (Request.RequestedFile != null)
             {
@@ -177,7 +177,7 @@
             }
             else
             {
-                Response.WriteFile(Request.FilesPath + &quot;home.html&quot;); // TODO: product page
+                Response.WriteFile(Request.FilesPath + "home.html"); // TODO: product page
             }
         }
 
