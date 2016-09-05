@@ -5,9 +5,9 @@ IoT Starter Netduino Plus 2 Core
 
 In the world there are tenths billions of  smart devices connected to the Internet right now, including all sizes of computers, tablets, cell phones, smart watches, pagers, etc. The IoT technology expects to double this quantity before 2020, which represents a $6 trillion market to be developed in the next few years.
 
-IoT development will challenge us all to behave  differently, compared to current  computing environment, based on human interaction with screens, keyboards and mouses. Instead, IoT devices will interact directly with nature, processing data in a real time basis. 
+IoT development challenges us to behave  differently, compared to current  computing environment, based on human interaction with screen, touch, keyboard and mouse. IoT devices should interact directly with nature, processing data in a real time basis. 
 
-Supposing you are trying to become an IoT entrepreneur, how to minimize the risks for a new IoT initiative? How to satisfy  users, investors and decision makers that are supporting a brilliant "idea" for an IoT project? Some steps may help you to improve the work flow and reduce the risks:
+Supposing you are trying to become an IoT entrepreneur, how to minimize the risks for IoT initiatives? How to satisfy  users, investors and decision makers that support a brilliant "idea" for an IoT project? Some steps may help to reduce the risks:
 
 - Business Plan
 - Team
@@ -17,11 +17,11 @@ Supposing you are trying to become an IoT entrepreneur, how to minimize the risk
 - Pilot
 - Commercial
 
-Then, suppose the initial "idea" has been moved to a profitable business plan and it was accepted by the investors. After that, an executive manager get involved and gathered a compact developer team, well trained to apply an agile methodology to keep a smooth and continuous workflow.
+Then, suppose that the original "idea" has grown enough to fit in a profitable business plan and it was accepted by investors. After that, an executive manager get involved and gathered a compact developer team, well trained to apply an agile methodology, in order to keep a smooth and continuous workflow. Great! Where are we now? Some time has passed since the investors came in and they are already pushing for results. We should speed up the development process to launch product as soon as possible, they say.
 
-Now, at the Proof of Concept, we expect to build the preliminary version that comply with users and investors needs. The first version should not add all the complexity required by final product, the goal at this time is to generate an embryo. Since methodology is able to evaluate and improve this embryo continuously, we can start it small. Each version may add functionality and corresponding tests to help fixing the issues.
+We just started Proof of Concept, when we expect to build the preliminary version that comply with users and investors needs. This is the first version and it should not handle all the complexity required by the final product. The goal is to generate a healthy embryo. Since methodology is able to evolve the embryo continuously, we can start it small. Each version will add functionality and fix issues based on the corresponding tests.
 
-This is the moment where the Starter Kit speeds up the product development and validate the main concepts from the IoT initiative. Better than that, the team workflow starts running as soon as the Starter Kit is installed. 
+This is the moment that a Starter Kit  may help the team to focus in the main concepts behind the IoT initiative and  make it profitable. The resources we got until now - a manager leading  a team that applies a methodology to generate a workflow, all them are  fully operational, immediately after the Starter Kit is installed. 
 
 <h2>Background</h2>
 
