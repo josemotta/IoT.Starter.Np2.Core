@@ -188,7 +188,7 @@ The Server_OnRequestReceived(), shown below, sets the <code>status</code>, depen
 
 <h2>Points of Interest</h2>
 
-<p>This is the first article about IoT Starter Kit and I expect to improve it with other platforms and also creating&nbsp;real&nbsp; applications that uses it.</p>
+<p>This is the first article about IoT Starter Kit and I expect to improve it with other platforms and also creating&nbsp;real&nbsp; applications that use it.</p>
 
 <h2>History</h2>
 
