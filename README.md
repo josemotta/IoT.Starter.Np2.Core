@@ -80,7 +80,7 @@
 
 <h2>Controller</h2>
 
-<p>The expected behaviour&nbsp;from&nbsp;the starter&nbsp;is a web server that listen on&nbsp;port 80 and answer with the&nbsp;<code>index.html </code>file, loaded from SD disk. It also accepts HTTP commands from&nbsp;browser to turn <strong>on </strong>and <strong>off </strong>the board&acute;s&nbsp;<code>OnboardLed</code>. The browser response includes&nbsp;current date/time , in order to check if NtpClient is&nbsp;properly running at initialization. Then, there are three comands to test, supposing IP address below:&nbsp;</p>
+<p>The expected behaviour&nbsp;from&nbsp;the starter&nbsp;is a web server that listen on&nbsp;port 80 and answer with the&nbsp;<code>home.html </code>file, loaded from SD disk. It also accepts HTTP commands from&nbsp;browser to turn <strong>on </strong>and <strong>off </strong>the board&acute;s&nbsp;<code>OnboardLed</code>. The browser response includes&nbsp;current date/time , in order to check if NtpClient is&nbsp;properly running at initialization. Then, there are three comands to test, supposing IP address below:&nbsp;</p>
 
 <p><code><a href="http://10.1.1.105/cmd?off">http://10.1.1.105/</a></code></p>
 
@@ -142,7 +142,7 @@
 
 <p>The web server is started using pre-initialized admin credentials, they will be required when browser asks for data. The File Server is also started at port 1554 to handle micro SD disk. At last, a&nbsp;null task loop updates continuously the <code>onBoardLed</code>, according to HTTP command <code>status</code>.</p>
 
-<p>The Server_OnRequestReceived(), shown below, sets the <code>status</code>, depending on the HTTP command received.</p>
+The Server_OnRequestReceived(), shown below, sets the <code>status</code>, depending on the HTTP command received. If no parameter is passed from the browser then `home.html` file is sent back to browser.
 
 
         static void Server_OnRequestReceived(HttpRequest Request, HttpResponse Response)
